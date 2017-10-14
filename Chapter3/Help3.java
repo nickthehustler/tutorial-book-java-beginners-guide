@@ -19,6 +19,7 @@ class Help3 {
         do {
           ignore = (char) System.in.read();
         } while(ignore != '\n');
+        
       } while(choice < '1' | choice > '7' & choice != 'q');
 
       if(choice == 'q') break;
